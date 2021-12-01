@@ -1,0 +1,46 @@
+
+fieldset {
+  border: 2px solid #000;
+}
+.ant-modal-header,
+.ant-modal-footer {
+  display: none;
+}
+.hdng {
+  color: #6c6c6c;
+}
+.modalButtons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.modalButtons button {
+  margin: 6px 14px;
+  color: white;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.308);
+}
+.modalButtons button:hover,
+.modalButtons button:focus {
+  color: white;
+}
+.modalButtons button:nth-child(1) {
+  background-color: rgb(0, 195, 255);
+}
+.modalButtons button:nth-child(2) {
+  background-color: rgb(255, 94, 0);
+}
+input.ant-input {
+  width: 85%;
+  margin: 8px 0;
+}
+/* .team{
+  display: flex;
+  flex-direction: row;
+
+}
+.teamDiv{ 
+   border: 2px solid #000;
+
+
+} */
